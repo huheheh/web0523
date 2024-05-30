@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+}
+
+section {
+    width: 1920;
+    height: 1200px;
+    text-align: center;
+    overflow: hidden;
+}
+section:nth-child(odd) {
+    background-color: skyblue;
+}
+#home h3{
+    color: white;
+}
+#home h2{
+    color: white;
+}
+#home {
+    background-image: url('./img/dfasdf.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#about {
+    background-image: url('./img/fdvadv.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#skills {
+    background-image: url('./img/ground1.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#works {
+    background-image: url('./img/ground2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#contact {
+    background-image: url('./img/ground3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.wrapper {
+    padding-top: 88px;
+    max-width: 1200px;
+    margin: auto;
+}
+h1 {
+    color: rgb(30, 103, 187);
+    font-size: 48px;
+    margin-top: 100px;
+}
+h2 {
+    font-size: 32px;
+}
+h3 {
+    font-size: 24px;
+    font-weight: 300;
+}
+.btns {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+.btns .container {
+    top: 10px;
+    position: relative;
+    max-width: 700px;
+    padding: 10px;
+    background-color: gray;
+    border-radius: 60px;
+    margin: auto;
+}
+.btns__menu {
+    display: flex;
+    justify-content: center;
+}
+.btns__menu .btn {
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    width: 150px;
+    height: 40px;
+    border-radius: 60px;
+    margin: 3px;
+    cursor: pointer;
+}
+button {
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.btns__menu .btn:hover {
+    background-color: white;
+    border: 1px solid #666;
+}
